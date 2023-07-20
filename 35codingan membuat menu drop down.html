@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codingan Membuat Menu Dropdown</title>
+</head>
+<h4>by : mfthlrhmh</h4>
+<style>
+  .box2{
+      background:rgba(170, 122, 122, 0.749);
+      padding: 100px;
+      margin: 0 auto ;
+      width:800px;
+      height:500%;
+  }      
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+  }
+  h4 {
+    color: rgb(255, 255, 255);
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 50px;
+  }
+  .box1 {
+    width: 800px;
+    height: 100%;
+    background: rgba(0, 255, 162, 0.673);
+    border: solid 3px black;
+    text-indent: 50px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #51cbffa3;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+    </style>
+ 
+<body>
+    <div class="box2">
+        <ul><center><p>Codingan Membuat Menu Dropdown</p></ul></center>
+    <h2>Membuat Menu Dropdown</h2>
+    <ul><h3>Codingannya adalah</h3></ul>
+    <ul></ul>
+    <div class="box1">
+            <xmp>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Menu Drop Down</title>
+                    <style>
+                        /* style untuk menu utama */
+                        nav {
+                          background-color: #333;
+                          overflow: hidden;
+                        }
+                
+                        nav a {
+                          display: inline-block;
+                          color: #f2f2f2;
+                          text-align: center;
+                          padding: 14px 16px;
+                          text-decoration: none;
+                          font-size: 17px;
+                        }
+                
+                        nav a:hover {
+                          background-color: #111;
+                        }
+                
+                        /* style untuk menu drop down */
+                        .dropdown {
+                          float: left;
+                          overflow: hidden;
+                        }
+                
+                        .dropdown .dropbtn {
+                          font-size: 17px;  
+                          border: none;
+                          outline: none;
+                          color: #f2f2f2;
+                          background-color: inherit;
+                          margin: 0;
+                          padding: 14px 16px;
+                          text-align: center;
+                          cursor: pointer;
+                        }
+                
+                        .dropdown-content {
+                          display: none;
+                          position: absolute;
+                          z-index: 1;
+                        }
+                
+                        .dropdown-content a {
+                          color: black;
+                          padding: 12px 16px;
+                          text-decoration: none;
+                          display: block;
+                          text-align: left;
+                        }
+                
+                        .dropdown:hover .dropdown-content {
+                          display: block;
+                        }
+                
+                        /* style untuk menu drop down sub item */
+                        .dropdown-submenu {
+                          position: relative;
+                        }
+                
+                        .dropdown-submenu .dropdown-content {
+                          top: 0;
+                          left: 100%;
+                          margin-left: 0px;
+                          margin-top: -1px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <nav>
+                        <a href="#">Beranda</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Produk 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Produk 1</a>
+                                <a href="#">Produk 2</a>
+                                <a href="#">Produk 3</a>
+                                <div class="dropdown-submenu">
+                                    <a href="#">Produk 4 <i class="fa fa-caret-right"></i></a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Sub-Produk 1</a>
+                                        <a href="#">Sub-Produk 2</a>
+                                        <a href="#">Sub-Produk 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">Tentang Kami</a>
+                        <a href="#">Kontak</a>
+                    </nav>
+                </body>
+                </html>
+                
+            </xmp>
+</div>
+<ul></ul>
+ <ul><h3>Hasil Dari codingannya adalah</h3></ul> 
+  <img src="13Menu Dropdown.png" rowspan="50" width="800px" style="display: block;border-round: 50%;border-color:white;margin-right:50px" border="5px" ></td></tr>
+</div>
+  <ul>
+  <a href="penjabaran codingan html.html" class="btn">Back</a>
+</ul>
+</body>
+</html>
