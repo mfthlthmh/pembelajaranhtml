@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codingan Membuat Menu Video</title>
+</head>
+<h4>by : mfthlrhmh</h4>
+<style>
+  .box2{
+      background:rgba(255, 0, 0, 0.749);
+      padding: 100px;
+      margin: 0 auto ;
+      width:800px;
+      height:500%;
+  }      
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+  }
+  h4 {
+    color: rgb(255, 255, 255);
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 50px;
+  }
+  .box1 {
+    width: 800px;
+    height: 100%;
+    background: rgba(0, 255, 162, 0.673);
+    border: solid 3px black;
+    text-indent: 50px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #51cbffa3;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  html{
+            background:url('Menu Video.jpg')no-repeat center fixed;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -moz-background-size:cover;
+            background-size:cover;
+  }
+    </style>
+ 
+<body>
+    <div class="box2">
+        <ul><center><p>Codingan Membuat Menu Video</p></ul></center>
+    <h2>Membuat Menu Video</h2>
+    <ul><h3>Codingannya adalah</h3></ul>
+    <ul></ul>
+    <div class="box1">
+            <xmp>
+              <!DOCTYPE html>
+              <html>
+                <head>
+                  <meta charset="UTF-8">
+                  <title>Menu Video Interaktif</title>
+                  <style>
+                    #video-player {
+                      width: 640px;
+                      margin: 0 auto;
+                    }
+                    .button {
+                      display: inline-block;
+                      background-color: #4CAF50;
+                      color: white;
+                      padding: 10px 20px;
+                      text-align: center;
+                      text-decoration: none;
+                      font-size: 16px;
+                      margin: 10px;
+                      cursor: pointer;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <div id="video-player">
+                    <video id="video" width="640" height="360">
+                      <source src="nama_file_video.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    <div id="menu">
+                      <button class="button" onclick="jumpToTime(0)">Mulai</button>
+                      <button class="button" onclick="jumpToTime(10)">10 detik</button>
+                      <button class="button" onclick="jumpToTime(20)">20 detik</button>
+                      <button class="button" onclick="jumpToTime(30)">30 detik</button>
+                    </div>
+                    <script>
+                      var video = document.getElementById("video");
+                      function jumpToTime(time) {
+                        video.currentTime = time;
+                      }
+                    </script>
+                  </div>
+                </body>
+              </html>
+              
+              
+            </xmp>
+</div>
+<ul></ul>
+ <ul><h3>Hasil Dari codingannya adalah</h3></ul> 
+  <img src="16Menu Video Interaktif.png" rowspan="50" width="800px" style="display: block;border-round: 50%;border-color:white;margin-right:50px" border="5px" ></td></tr>
+</div>
+  <ul>
+  <a href="penjabaran codingan html.html" class="btn">Back</a>
+</ul>
+</body>
+</html>

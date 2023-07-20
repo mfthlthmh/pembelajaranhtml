@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Coding</title>
+    <h4>by : mfthlrhmh</h4>
+	<ul></ul>
+	<h1>Materi Coding</h1>
+</head>
+
+<style>
+	.container {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .bar1,
+      .bar2,
+      .bar3 {
+
+        width: 35px;
+        height: 50px;
+        background-color: #333;
+        margin: 10px 0;
+        transition: 0.4s;
+      }
+
+      .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+
+      .change .bar2 {
+        opacity: 0;
+      }
+
+      .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+      /* Fixed sidenav, full height */
+      .sidenav {
+		  margin: 80px;  
+        height: 80%;
+        width: 350px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #1bef9370;
+        overflow-x: hidden;
+        padding-top: 2px;
+      }
+
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a,
+      .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000000;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
+
+      /* On mouse-over */
+      .sidenav a:hover,
+      .dropdown-btn:hover {
+        color: hsla(92, 99%, 67%, 0.8);
+      }
+
+      /* Main content */
+      .main {
+        margin-left: 200px; /* Same as the width of the sidenav */
+        font-size: 20px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
+
+      /* Add an active class to the active dropdown button */
+      .active {
+        background-color: green;
+        color: rgba(0, 0, 0, 0.699);
+		    margin: 1px;
+      }
+
+      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+      .dropdown-container {
+        display: none;
+        background-color: #7b7b7b;
+        padding-left: 0px;
+		
+      }
+
+      /* Optional: Style the caret down icon */
+      .fa-caret-down {
+        float: right;
+        padding-right: 8px;
+      }
+
+      /* Some media queries for responsiveness */
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 20px;
+        }
+        .sidenav a {
+          font-size: 15px;
+        }
+      }
+    h1 {
+      color:rgb(255, 255, 255);
+      text-align: center;
+	  font-size: 50px;
+    }
+	h4 {
+		color:rgb(255, 255, 255);
+		
+	}
+    p {
+      font-family: Times New Roman;
+      font-size: 15px;
+	  color: white;
+    }
+    </style>
+    <body>
+		<div class="sidenav">
+			<ul></ul>
+			<ul></ul>
+			<ul></ul>  									
+			<a href="10komen.html" class="btn">Membuat Komentar di HTML</a>
+			<a href="11Membuat Teks Tebal.html" class="btn"> Membuat Teks Tebal di HTML</a>
+			<a href="12Text Miring di HTML.html" class="btn">Membuat Teks Miring di HTML</a>
+			<a href="13Garis Bawah di HTML.html" class="btn">  Membuat Garis Bawah di HTML</a>
+			<a href="14Text Tercoret di HTML.html" class="btn"> Membuat Text Tercoret di HTML</a>
+			<a href="15Membuat Pangkat di HTML.html" class="btn">  Membuat Pangkat di HTML</a>
+      <a href="16Membuat marker teks di HTML.html" class="btn">  Membuat Marker Teks di HTML</a>
+      <a href="17Menggabungkan Format.html" class="btn"> Menggabungkan Format</a>
+      <a href="35codingan membuat menu drop down.html" class="btn">Tutorial Membuat Menu Dropdown</a>
+      <a href="36codingan membuat form input biodata.html" class="btn">Tutorial Membuat Form Input Biodata</a>
+      <a href="37Judul Halaman.html" class="btn">Tutorial Membuat Judul Header</a>
+      <a href="38codingan membuat menu list button.html" class="btn">Membuat Menu List Button</a>
+      <a href="39Codingan Membuat Menu Video.html" class="btn">Membuat Menu Video</a>
+   
+<ul></ul>
+<ul></ul>
+      <a href="Web Materi Html.html" class="btn">Back</a>
+			
+		  </div>
+		  <body>
+		  <script>
+			/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+			var dropdown = document.getElementsByClassName("dropdown-btn");
+			var i;
+	  
+			for (i = 0; i < dropdown.length; i++) {
+			  dropdown[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+				  dropdownContent.style.display = "none";
+				} else {
+				  dropdownContent.style.display = "block";
+				}
+			  });
+			}
+		  </script>
+
+		<style>
+			html{
+				  background:url('penjabaran codingan .jpg')no-repeat center fixed;
+				  -webkit-background-size:cover;
+				  -moz-background-size:cover;
+				  -moz-background-size:cover;
+				  background-size:cover;
+			}
+		  </style> 
+		</body>
+		</html>
